@@ -1,0 +1,15 @@
+﻿<!-- Views/Item/Create.cshtml -->
+@model ItemModel
+
+<h2>Create New Item</h2>
+<form id="addItemForm">
+    <label for="Name">Name:</label>
+    <input type="text" id="Name" name="Name" required />
+    <!-- Add other input fields as needed -->
+
+    <button type="submit">Add Item</button>
+</form>
+
+@section Scripts {
+    <script src="~/js/item.js"></script>
+}
